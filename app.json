@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "spotify-project",
+    "slug": "spotify-project",
+    "version": "1.0.0",
+    "scheme": "exp://192.168.0.12:8081",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "compileSdkVersion": 31,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      
+      },
+      "package": "com.kitenek.spotifyproject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bb3038f6-20e4-428d-9224-300b9d9bc8f1"
+      }
+    }
+  }
+}
